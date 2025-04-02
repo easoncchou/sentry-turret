@@ -2,6 +2,8 @@
 
 This project is a **camera-based sentry turret** that tracks and fires at targets using a **STM32 microcontroller, a laptop, and an Arduino**.  
 
+![](assets/sentry-turret.gif)
+
 ## **How It Works:**  
 - 📷 **STM32** captures camera frames using the OV7670 module, processes images using DCMI and transmits them to the laptop via DMA.  
 - 💻 **Laptop** processes the frames and sends aiming commands to the Arduino UNO via UART.  
